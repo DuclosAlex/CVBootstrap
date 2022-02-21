@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CV bootstrap</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#NavBarToSpy">
+
+    <nav id="NavBarToSpy" class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Expériences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#formation">Formation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portefolio">Porte-Folio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#motivation">Motivation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#myself">Personnalité</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section id="about" class="container-fluid bg-primary">
+        
+        <div  class="profile-picture">
+            <img class="col-lg-3 col-4 rounded-circle" src="images/moi02.jpg" alt="Photo perso">
+        </div>
+
+        <div class="heading">
+            <h1>Duclos Alex</h1>
+            <h3>Recherche Alternance Développeur Full Stack</h3>
+            <h4>Formation éligible à l'aide exceptionelle de 8000 euros</h4>
+        </div>
+        
+    </section>
+
+    <section id="skills" class="container-fluid bg-light">
+
+        <div class="divider bg-primary"></div>
+        <div class="heading">
+            <h2 class="text-primary">Compétences</h2>
+        </div>
+
+        <div class="row container-fluid">
+
+            <div class="card bg-primary col-lg-4 col-md-8">
+                <h2>Langage de base</h2>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                        <h5>90% HTML</h5>
+                    </div>
+                </div>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                        <h5>90% CSS</h5>
+                    </div>
+                </div>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <h5>80% JavaScirpt</h5>
+                    </div>
+                </div>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <h5>80% PHP</h5>
+                    </div>
+                </div>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <h5>80% SQL</h5>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="card bg-primary col-lg-4 col-md-8">
+                <h2>Framework, Librairies</h2>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <h5>50% Jquery</h5>
+                    </div>
+                </div>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                        <h5>40% React</h5></div>
+                </div>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                        <h5>40% Vue.JS</h5>
+                    </div>
+                </div>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <h5>70% Laravel</h5>
+                    </div>
+                </div>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-light text-success" role="progressbar" style="width: 100%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <p>Symfony à Venir pendant la Formation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row container-fluid">
+
+            <div class="card bg-primary col-md-8">
+                <h2>Outils Divers</h2>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <h5>60% Git/Github</h5>
+                    </div>
+                </div>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                        <h5>30% Node.JS</h5>
+                    </div>
+                </div>
+                <div class="progress col-8">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <h5>80% Bootstrap</h5>
+                    </div>
+                </div>
+                
+            </div>
+
+                
+        </div>
+
+    </section>
+
+    <section id="experience" class="container-fluid bg-primary">
+
+        <div class="divider bg-light"></div>
+        <div class="heading">
+            <h2 class="text-light">Expériences Professionelles</h2>
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Casa Inesa ( Montpellier )</h3>
+                                <h4 class="text-success">Chef de rang</h4>
+                                <p class="text-muted"><span class="bi-click-fill"></span>Juin 2018 - Juillet 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Brasserie Scholler ( Montpellier )</h3>
+                                <h4 class="text-success">Chef de Rang</h4>
+                                <p class="text-muted"><span class="bi-click-fill"></span>Mars 2016 à Mai 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Restaurant La Suite ( Saint-Jean-de-Monts )</h3>
+                                <h4 class="text-success">Chef de Rang</h4>
+                                <p class="text-muted"><span class="bi-click-fill"></span>Juin à Octobre 2015, saisonnier</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Hôtel 3* Le Val Chavière ( Val Thorens )</h3>
+                                <h4 class="text-success">Chef de Rang</h4>
+                                <p class="text-muted"><span class="bi-click-fill"></span>Décembre 2014 - Avril 2015, saisonnier</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Restaurant La Langoustine ( Saint-Jean-de-Monts )</h3>
+                                <h4 class="text-success">Serveur</h4>
+                                <p class="text-muted"><span class="bi-click-fill">Mai 2014 à Octobre 2014, saisonnier</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Hôtel 5* Le Pralong ( Courchevel )</h3>
+                                <h4 class="text-success">Commis de Salle</h4>
+                                <p class="text-muted"><span class="bi-click-fill">Décembre 2013 à Mars 2014, saisonnier</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Bar, Tabac, Presse Le Narval ( Saint-Jean-de-Monts )</h3>
+                                <h4 class="text-success">Employée Polyvalent ( Service, vente, encaissement )</h4>
+                                <p class="text-muted"><span class="bi-click-fill">Été 2012/2013, saisonnier</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+
+    <section id="formation">
+        <div class="container">
+            <div class="divider bg-primary"></div>
+            <div class="heading">
+                <h2 class="text-primary">Formation</h2>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="formation-block">
+                        <h5>Septembre 2021 - Décembre 2021</h5>
+                        <span class="bi-award-fill"></span>
+                        <h3>3WAcademy</h3>
+                        <h4>Booster 3 Mois</h4>
+                        <div class="divider bg-primary"></div>
+                        <p>Apprentissage HTML, CSS, JS, PHP, SQL</p>
+                        <p>Découverte de Vue.JS, Laravel, Environnement Node, Git/GitHub</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="formation-block">
+                        <h5>Année 2022</h5>
+                        <span class="bi-award-fill"></span>
+                        <h3>3WAcademy</h3>
+                        <h4>Formation FullStack en Alternance</h4>
+                        <div class="divider bg-primary"></div>
+                        <p>Formation FullStack en Alternance</p>
+                        <p>Simfony et React.JS</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portefolio" class="bg-primary">
+        
+        <div class="container">
+            <div class="divider bg-light"></div>
+            <div class="heading">
+                <h2 class="text-light">PorteFolio</h2>
+            </div>
+        
+
+            <div class="row">
+                <div class="col-md-4">
+                    
+                    <img class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#StreetArtModal" src="images/LogoStreetArt.png">
+                    
+
+                    <div class="modal fade" id="StreetArtModal" tabindex="-1" role="dialog" aria-labelledby="StreetArtModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="StreetArtModalLabel">Maquette Street Art Blog</h5>
+                            </div>
+                            <p>Réalisé pendant la formation</p>
+                            <div class="modal-body">
+                              <img src="images/StreetArtPage01.jpeg">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                               <a href="https://github.com/DuclosAlex/StreetArt"  target="_blank"><button type="button" class="btn btn-primary">Voir sur GitHub</button></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    
+                    <img class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#FreshlyRestaurantModal" src="images/LogoFreshlyRestaurant.png">
+
+                    <div class="modal fade" id="FreshlyRestaurantModal" tabindex="-1" role="dialog" aria-labelledby="FreshlyRestaurantModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="FreshlyRestaurantModalLabel">Maquette Freshly Restaurant</h5>
+                            </div>
+                            <p>Réalisé pendant la formation</p>
+                            <div class="modal-body">
+                              <img src="images/FreshlyRestaurantPage01.jpeg">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                               <a href="https://github.com/DuclosAlex/MaquetteRestaurant" target="_blank"><button type="button" class="btn btn-primary">Voir sur GitHub</button></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    
+                    <img class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#Top5Modal" src="images/LogoTop5.png">
+                
+                    <div class="modal fade" id="Top5Modal" tabindex="-1" role="dialog" aria-labelledby="Top5ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="Top5Label">Maquette Top5</h5>
+                            </div>
+                            <p>Réalisé pendant la formation</p>
+                            <div class="modal-body">
+                                <img src="images/Top5Page01.png">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                                <a href="https://github.com/DuclosAlex/FirstJqueryProject" target="_blank"><button type="button" class="btn btn-primary">Voir sur GitHub</button></a>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="motivation">
+        <div class="container">
+            <div class="divider bg-primary"></div>
+            <div class="heading">
+                <h2 class="text-primary">Mon Projet et mes Motivations</h2>
+
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="card bg-primary text-light">
+                            <h3>Le projet</h3>
+                            <p>Mon projet, c’est une reconversion professionnelle dans le développement web. Après avoir passé 10 ans en restauration, ce que je désire aujourd’hui c’est avoir un métier que je prends plaisir à exercer et dans lequel je me sens valorisé en participant à des projets uniques et innovants. </p>
+                            <p>C’est pour cela que je recherche une alternance afin de réaliser ma formation Développeur Web FullStack. Je veux faire de mon année de formation le point de départ de ma nouvelle vie professionnelle, et je souhaite réaliser cette année dans une entreprise humaine, qui saura me guider et me former pour que je puisse être autonome et compétent dans ce nouveau métier. </p>
+                        </div>
+                        
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <div class="card bg-primary text-light">
+                            <h3>Mes Motivations Partie 1</h3>
+                            <p>Les troubles liées à la Covid m’ont donné envi de trouver un secteur qui soit plus sécurisant. En effet, ne pas pouvoir être libre de travailler pendant de nombreux mois et les difficultés de la reprise m’ont inquiété quant à la sécurité de mon emploi. </p>
+                            <p>L’approche de mes 30 ans et la construction de ma vie de couple m’ont aussi donné envi d’apporter une stabilité à mon activité professionnelle, loin des contraintes horaires de la restauration.</p>
+                            
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card bg-primary text-light">
+                            <h3>Mes Motivations Partie 2</h3>
+                            <p>Mon choix de me former dans le secteur du numérique n’est pas un hasard, mais une décision basée sur un intérêt de longue date. J’ai longtemps eu de la curiosité pour le métier de développeur, mais je ne croyais pas ce métier m’être accessible par manque de connaissance et d’information. </p>
+                            <p>Ayant pris le temps de m’informer et de m’initier pendant les confinements, je sais aujourd’hui que développeur web est un métier qui me permettra de m’épanouir, de mettre en avant ma curiosité et d’être fier de mon activité quand je participerais à des projets uniques et innovants.</p>
+                            
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="myself" class="bg-primary">
+        <div class="container">
+
+            <div class="divider bg-light"></div>
+            <div class="heading">
+                <h2 class="text-light">Ma personnalité</h2>
+            </div>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Mes qualités !
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-light text-primary">
+                      <p>Ma principale qualité est d’être curieux, j’adore apprendre de nouvelles choses et je prendrai donc du plaisir à continuer de me former ou à mettre à jours mes connaissances tout au long de ma futur carrière de développeur.</p>
+                      <p>De plus, je suis aussi très à l’aise avec le travail en équipe, mes années de restauration  m’ont habitué à travailler au quotidien avec des personnes aux profils différents du mien, en respectant l’individualité de chacun. </p>
+                      <p>Je suis aussi quelqu’un avec une conscience professionnelle. J’aime travailler, et j’aime encore plus bien travailler, accomplissant au mieux et avec le plus grand sérieux les tâches qui me sont confiées.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Mes défauts ! 
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-light text-primary">
+                       <p>Pour les défauts, je parlerai de mon exigence. Ma conscience professionnelle peut parfois être à double tranchant, mon envi de réussir ouvre la porte aux stress quand je rencontre des difficultés dans mon activité. </p>
+                       <p>Mais j’ai appris à canaliser ce stress, sachant faire redescendre la pression, en changeant de tâche le temps de retrouver ma sérénité, en acceptant de demander de l’aide et en prenant conscience qu’on en peut pas toujours avoir toutes les solutions à portée de main. </p>
+                       <p>Je vois plus facilement la complexité que la simplicité</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Mes passions !
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-light text-primary">
+                      <p>La première et la plus importante de mes passions, c’est la littérature, avec une préférence pour la science-fiction et la fantasy, même si je peux apprécier n’importe quel genre de récit, du moment que ça me fait voyager. J’y consacre beaucoup de temps depuis que je sais lire, et je suis très fier de ma collection d’ouvrage. </p>
+                      <p>J’aime aussi beaucoup la randonnée, une passion avec ma compagne. Découvrir tous les beaux paysages disséminés tout autour de nous est toujours un plaisir, et prendre un grand bol d’air en pleine nature permet de refaire le plein d’énergie, malgré la fatigue de l’activité physique. </p>
+                      <p>N’hésitez pas à me parler aussi de vin ou de cinéma, ou même de musique, on ne sera sûrement pas d’accord sur tout mais les discussions n’en seront pas moins intéressante. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="divider bg-primary"></div>
+            <div class="heading">
+                <h2 class="text-primary">Contact</h2>
+            </div>
+
+            <div class="row">
+                <div class="card col-4">
+                    <h4>Par téléphone <span class="bi-phone-fill"></span></h4>
+                    <h5>0670022976</h5>
+                </div>
+                <div class="card col-4">
+                    <h4>Par mail <span class="bi-envelope-fill"></span></h4>
+                    <h5>Duclos.alex85@outlook.fr</h5>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
